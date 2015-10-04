@@ -3,6 +3,7 @@ MAINTAINER  numayacto@gmail.com
 
 RUN dnf update -y
 RUN dnf install wget gcc gcc-c++ autoconf git -y
+RUN dnf install make tar -y
 RUN mkdir -p /sources
 RUN mkdir -p /pkgbatch
 COPY ./pkgbatch /pkgbatch
