@@ -5,7 +5,7 @@ RUN dnf update -y
 RUN dnf install wget gcc gcc-c++ autoconf git -y
 RUN mkdir -p /sources
 RUN mkdir -p /pkgbatch
-COPY ./pkgbatch /
+COPY ./pkgbatch /pkgbatch
 RUN ln -s /pkgbatch/pkgbatch /usr/bin/pkgbatch
 
 COPY HyperDexSources/hyperdex.sources /sources/hyperdex.sources

@@ -1,0 +1,12 @@
+[submodule "coord/pkgbatch"]
+	path = coord/pkgbatch
+	url = https://github.com/NuMayaLLC/pkgbatch.git
+[submodule "coord/HyperDexSources"]
+	path = coord/HyperDexSources
+	url = https://github.com/NuMayaLLC/HyperDexSources.git
+[submodule "daemon/pkgbatch"]
+	path = daemon/pkgbatch
+	url = https://github.com/NuMayaLLC/pkgbatch.git
+[submodule "daemon/HyperDexSources"]
+	path = daemon/HyperDexSources
+	url = https://github.com/NuMayaLLC/HyperDexSources.git
